@@ -1,8 +1,8 @@
 class FinderMenu < Formula
   desc "Adds New File, Open Terminal Here and more to Finder's right-click menu"
   homepage "https://github.com/nikgrbn/finder-menu"
-  url "https://github.com/nikgrbn/finder-menu/archive/refs/tags/v1.1.1.tar.gz"
-  sha256 "7c6811b1112f4e6add40deb16b0370dee0aa56ede914c2004c488ba50475a2e5"
+  url "https://github.com/nikgrbn/finder-menu/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "e0d21d918b77af9a03ab49707aabe179aab3279009a484b94c6928303e81cac3"
   license "MIT"
 
   depends_on macos: :ventura
@@ -20,8 +20,8 @@ class FinderMenu < Formula
       To update later, run this, then `finder-menu enable` again:
         brew update && brew upgrade finder-menu
 
-      To choose the terminal for Open Terminal Here:
-        finder-menu terminal Ghostty
+      To choose which items appear and which terminal opens:
+        finder-menu settings
 
       Before `brew uninstall finder-menu`, run:
         finder-menu disable

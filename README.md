@@ -11,4 +11,4 @@ brew install nikgrbn/tap/finder-menu
 finder-menu enable
 ```
 
-It's built from source on your Mac. To update, run `brew update && brew upgrade finder-menu`, then `finder-menu enable` again (without `brew update`, Homebrew checks for new versions only once a day). Run `finder-menu disable` before `brew uninstall`. Pick the terminal for Open Terminal Here with `finder-menu terminal <app>`.
+It's built from source on your Mac. To update, run `brew update && brew upgrade finder-menu`, then `finder-menu enable` again (without `brew update`, Homebrew checks for new versions only once a day). Run `finder-menu disable` before `brew uninstall`. Run `finder-menu settings` to choose which menu items appear and which terminal opens.
