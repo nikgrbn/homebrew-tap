@@ -17,10 +17,12 @@ class FinderMenu < Formula
       To add Finder Menu to Finder's right-click menu, run:
         finder-menu enable
 
-      Run it again after `brew upgrade finder-menu`.
+      To update later, run this, then `finder-menu enable` again:
+        brew update && brew upgrade finder-menu
 
       To choose the terminal for Open Terminal Here:
         finder-menu terminal Ghostty
+
       Before `brew uninstall finder-menu`, run:
         finder-menu disable
     EOS
