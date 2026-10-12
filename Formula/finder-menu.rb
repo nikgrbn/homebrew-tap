@@ -1,8 +1,8 @@
 class FinderMenu < Formula
   desc "Adds New File, Open Terminal Here and more to Finder's right-click menu"
   homepage "https://github.com/nikgrbn/finder-menu"
-  url "https://github.com/nikgrbn/finder-menu/archive/refs/tags/v1.5.0.tar.gz"
-  sha256 "08aa664895cb205f045b863dc20c4a5108db7c9b5ef05a21f1c45c11085156a2"
+  url "https://github.com/nikgrbn/finder-menu/archive/refs/tags/v1.5.1.tar.gz"
+  sha256 "8c54eacd65509f35ca58593c53002ac0da4e398c19577ff8b92ec03fd146b243"
   license "MIT"
 
   depends_on macos: :ventura
